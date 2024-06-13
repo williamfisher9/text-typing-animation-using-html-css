@@ -41,5 +41,8 @@ body {
 }
 
 @keyframes typing {
-    100% {transform: translateX(950px);}
+    100% {
+        left: 100%;
+        margin: 0 -100px 0 100px;
+    }
 }
